@@ -1,0 +1,40 @@
+{
+  "author": "Mark Vayngrib <mark.vayngrib@lablz.com> (http://github.com/mvayngrib)",
+  "bugs": {
+    "url": "https://github.com/mvayngrib/multiplex-utp/issues"
+  },
+  "description": "[![NPM](https://nodei.co/npm/multiplex-utp.png)](https://nodei.co/npm/multiplex-utp/)",
+  "devDependencies": {
+    "pre-commit": "latest",
+    "standard": "latest",
+    "tape": "latest"
+  },
+  "homepage": "https://github.com/mvayngrib/multiplex-utp",
+  "keywords": [
+    "multiplex",
+    "sockets",
+    "utp",
+    "share",
+    "overload"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "multiplex-utp",
+  "pre-commit": [
+    "style",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvayngrib/multiplex-utp.git"
+  },
+  "scripts": {
+    "style": "standard $(git ls-files \"**.js\")",
+    "test": "node test"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "sock-plex": "^1.0.1",
+    "utp": "mvayngrib/utp"
+  }
+}
