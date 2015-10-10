@@ -34,7 +34,7 @@
   },
   "version": "1.0.0",
   "dependencies": {
-    "sock-plex": "^1.0.1",
+    "sock-plex": "^1.0.2",
     "utp": "mvayngrib/utp"
   }
 }

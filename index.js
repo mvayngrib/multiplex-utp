@@ -1,3 +1,5 @@
+require('http')
+require('https')
 require('sock-plex')
 
 try {
