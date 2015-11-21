@@ -19,7 +19,7 @@
   ],
   "license": "ISC",
   "main": "index.js",
-  "name": "multiplex-utp",
+  "name": "@tradle/multiplex-utp",
   "pre-commit": [
     "style",
     "test"
@@ -34,7 +34,7 @@
   },
   "version": "1.0.1",
   "dependencies": {
-    "sock-plex": "^1.0.2",
-    "utp": "mvayngrib/utp"
+    "@tradle/utp": "0.0.8",
+    "sock-plex": "^1.0.2"
   }
 }

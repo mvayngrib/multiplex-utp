@@ -4,7 +4,7 @@ require('sock-plex')
 
 try {
   var net = require('net')
-  var utp = require('utp')
+  var utp = require('@tradle/utp')
   if (utp !== net && utp.connect !== net.connect) {
     // yes, force everyone to use utp
     replace(net, utp)
